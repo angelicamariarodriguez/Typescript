@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>taller TypeScript</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" type="text/css" href="tallertypescript.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script type="module" src='./scripts/main.js'></script>
+</head>
+<body>
+    <h1>Taller TypeScript</h1>
+    <table class="table" id="aprendiz"></table>
+    <h2>Estadisticas</h2>
+    <table class="table" id="estadisticas"></table>
+    <h2>Cursos tomados</h2>
+    <div class = "filtro">
+    <input type="text" class="form-control" id="texto-busqueda"
+    placeholder="filtrar por nombre">
+    <button type="button" id="boton-filtro" class="btn btn-success">Aplicar</button>
+    </div>
+    <table class="table" id="cursos">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Horas</th>
+                <th>Calificacion</th>
+                <th>Certificado</th>
+                <th>Anio</th>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
